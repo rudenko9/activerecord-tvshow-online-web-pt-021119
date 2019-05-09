@@ -7,5 +7,5 @@ end
 def self.most_popular_show
   
 self.maximum(:rating, highest_rating)
-
+end
 end 
