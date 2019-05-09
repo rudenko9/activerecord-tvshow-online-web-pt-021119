@@ -22,7 +22,6 @@ def self.lowest_rating
   
   def self.popular_shows
     self.where("rating > 5")
-    
-  end
-  
+     end
+  def self.
 end 
