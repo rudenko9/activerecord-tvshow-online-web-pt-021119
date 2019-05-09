@@ -20,4 +20,6 @@ def self.lowest_rating
     self.sum(:rating)
   end
   
+  def self.
+  
 end 
