@@ -1,4 +1,4 @@
 class Show < ActiveRecord::Base
   
-  Show.maximum()
+  Show.maximum(highest_rating)
 end 
