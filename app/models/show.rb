@@ -17,7 +17,7 @@ def self.lowest_rating
     self.find_by(rating: lowest_rating)
   end
   def self.ratings_sum
-    
+    self.sum
   end
   
 end 
