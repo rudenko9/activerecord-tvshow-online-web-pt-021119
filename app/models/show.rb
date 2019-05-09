@@ -24,6 +24,6 @@ def self.lowest_rating
     self.where("rating > 5")
      end
   def self.shows_by_alphabetical_order
-    self.order(:name :asc )
+    self.order("name ASC" )
   end
 end 
