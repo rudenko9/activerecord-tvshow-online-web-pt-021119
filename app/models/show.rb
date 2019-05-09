@@ -25,6 +25,6 @@ def self.lowest_rating
      end
   def self.shows_by_alphabetical_order
     self.order("name ASC" )
-    
+   #self.order(name: :asc )
   end
 end 
