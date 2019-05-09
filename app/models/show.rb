@@ -13,5 +13,7 @@ def self.lowest_rating
   self.minimum(:rating)
   end
   
-  def 
+  def self.least_popular_show
+    self.find_by(rating: lowest_rating)
+  end
 end 
