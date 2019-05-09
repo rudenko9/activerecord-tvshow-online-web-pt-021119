@@ -20,6 +20,9 @@ def self.lowest_rating
     self.sum(:rating)
   end
   
-  def self.
+  def self.popular_shows
+    self.where(:rating > 5)
+    
+  end
   
 end 
