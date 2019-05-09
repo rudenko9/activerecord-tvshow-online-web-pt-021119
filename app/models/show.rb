@@ -1,4 +1,4 @@
 class Show < ActiveRecord::Base
   
-  Show.maximum(high)
+  Show.maximum()
 end 
