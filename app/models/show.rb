@@ -1,4 +1,4 @@
 class Show < ActiveRecord::Base
   
-  Show.
+  Show.maximum(high)
 end 
